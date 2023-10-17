@@ -1,16 +1,16 @@
 import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero';
 import './styles/App.css';
-import { Router, Route,BrowserRouter } from "react-router-dom";
+import { Routes, Route,BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-        Hello
-        <Navbar/>
-        
-    </div>
-    
+    <Navbar/>
+      <Routes>
+        <Route path={"/login"} element={<Hero/>} />
+
+      </Routes>
     </BrowserRouter>
   );
 }
