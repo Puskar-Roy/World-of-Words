@@ -11,7 +11,6 @@ const Navbar = () => {
         <h2 className="brand">
           <Link className="link" to={"/"}>
           <img src={logo} alt="logo" />
-            {/* Bimch. */}
           </Link>
         </h2>
         <ul className={mobile ? "navListActive" : "navList"}>
