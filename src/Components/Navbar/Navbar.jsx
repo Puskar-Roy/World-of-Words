@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
           <li className="navListItem">
             <Link className="link" to={"/activeUsers"}>
-              Services
+              Secd frrvices
             </Link>
           </li>
           <li className="navListItem">
