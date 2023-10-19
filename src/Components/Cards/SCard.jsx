@@ -3,8 +3,107 @@ import React from 'react'
 const SCard = () => {
   return (
     <div>
-        Cards Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati ducimus voluptatum deserunt accusamus? Laborum nobis accusantium veritatis aut porro vitae quibusdam quo debitis? Totam aspernatur, cum suscipit repellendus facilis deserunt qui ipsam ab quae earum asperiores velit fuga obcaecati! Placeat eveniet necessitatibus sit repellendus maxime! Distinctio autem facilis esse earum alias iure nulla nobis debitis repudiandae provident. Sed doloremque cumque eos alias, iusto, sequi perspiciatis facilis excepturi corporis repellat aliquam doloribus dolorem nisi quo ipsum quia cum. Necessitatibus corporis laboriosam odit ab sunt, harum asperiores enim. Officiis ut ducimus deserunt. Magnam laborum incidunt beatae, quas architecto aliquam debitis amet obcaecati aliquid aspernatur inventore nihil neque accusantium quae pariatur id maiores nostrum ullam dicta tempore. Ratione laborum necessitatibus quos velit exercitationem consequatur facere molestiae, id delectus, mollitia soluta error repudiandae? Eaque perspiciatis nostrum similique placeat maiores unde voluptate aperiam sint aliquid ea, nihil rem nobis quam dolore. Libero dolore quasi veritatis explicabo quod iste aperiam voluptatum ducimus saepe? Autem sit, tenetur deserunt quaerat et minus deleniti optio? Optio neque enim quos vel error doloribus cumque nulla dicta dolores, ab esse consequatur mollitia inventore cupiditate incidunt magnam sapiente harum eaque, dolorem minima vitae! Dolores in alias soluta eos libero deserunt impedit ullam voluptatibus maxime quae atque assumenda accusantium obcaecati dolor aliquid magnam dignissimos, laboriosam modi maiores accusamus! Laborum, provident fugiat autem assumenda cumque consequuntur itaque, dolore odio deleniti accusamus incidunt quos praesentium libero ipsam quia necessitatibus doloremque animi iste voluptas. Alias recusandae nostrum deserunt placeat impedit accusamus doloremque, laborum necessitatibus, quidem consequatur quas, ducimus et autem. Et repellendus est animi ullam voluptatem eum cupiditate at, ea repudiandae iste sint, distinctio vero possimus, illum consequatur esse non provident ratione corporis quasi totam laudantium. Dolore aut porro vero sunt neque fugiat quos, voluptatibus maiores assumenda consequatur ratione deserunt. Consequatur voluptatibus quasi aliquam iusto.
-      
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                  <div className="text-center">
+                      <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                          <svg
+                              className="w-8 h-8 text-purple-400 sm:w-10 sm:h-10"
+                              stroke="currentColor"
+                              viewBox="0 0 52 52"
+                          >
+                              <polygon
+                                  strokeWidth="3"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fill="none"
+                                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                              />
+                          </svg>
+                      </div>
+                      <h6 className="text-4xl font-bold text-deep-purple-accent-400">
+                          819
+                      </h6>
+                      <p className="mb-2 font-bold text-md">Downloads</p>
+                      <p className="text-purple-700 text-lg">
+                          It’s something that’s many of the wisest people in history have kept
+                          in mind.
+                      </p>
+                  </div>
+                  <div className="text-center">
+                      <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                          <svg
+                              className="w-8 h-8 text-purple-400 sm:w-10 sm:h-10"
+                              stroke="currentColor"
+                              viewBox="0 0 52 52"
+                          >
+                              <polygon
+                                  strokeWidth="3"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fill="none"
+                                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                              />
+                          </svg>
+                      </div>
+                      <h6 className="text-4xl font-bold text-deep-purple-accent-400">
+                          1.3K
+                      </h6>
+                      <p className="mb-2 font-bold text-md">Users</p>
+                      <p className="text-purple-700 text-lg">
+                          For many men, the acquisition of wealth does not end their troubles,
+                          it only changes them.
+                      </p>
+                  </div>
+                  <div className="text-center">
+                      <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                          <svg
+                              className="w-8 h-8 text-purple-400 sm:w-10 sm:h-10"
+                              stroke="currentColor"
+                              viewBox="0 0 52 52"
+                          >
+                              <polygon
+                                  strokeWidth="3"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fill="none"
+                                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                              />
+                          </svg>
+                      </div>
+                      <h6 className="text-4xl font-bold text-grey-400">91</h6>
+                      <p className="mb-2 font-bold text-md">Subscribers</p>
+                      <p className="text-purple-700 text-lg">
+                          It's a helluva start, being able to recognize what makes you happy
+                          today, in this moment.
+                      </p>
+                  </div>
+                  <div className="text-center">
+                      <div className="flex items-center justify-center w-10 h-10 mx-auto mb-3 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                          <svg
+                              className="w-8 h-8 text-purple-400 sm:w-10 sm:h-10"
+                              stroke="currentColor"
+                              viewBox="0 0 52 52"
+                          >
+                              <polygon
+                                  strokeWidth="3"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fill="none"
+                                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                              />
+                          </svg>
+                      </div>
+                      <h6 className="text-4xl font-bold text-deep-purple-accent-400">52</h6>
+                      <p className="mb-2 font-bold text-md">Products</p>
+                      <p className="text-purple-700 text-lg">
+                          Happiness is when what you think, what you say, and what you do are
+                          in harmony.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
     </div>
   )
 }
