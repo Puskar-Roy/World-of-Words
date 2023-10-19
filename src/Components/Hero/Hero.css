@@ -130,7 +130,7 @@ video {
   gap: 4rem;
 }
 
-@media (max-width:420px) {
+@media (max-width:476px) {
   .overlay h1 {
     font-size: 2.2rem;
 }
