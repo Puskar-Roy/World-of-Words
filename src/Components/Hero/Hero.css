@@ -17,12 +17,14 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
-background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); */
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(235, 43, 203, 0.8)) /* The least supported option. */
-
+  background: #c33764; /* fallback colour. Make sure this is just one solid colour. */
+  /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); */
+  background: linear-gradient(
+    rgba(29, 38, 113, 0.8),
+    rgba(235, 43, 203, 0.8)
+  ); /* The least supported option. */
 }
 
 /* Video Styles */
@@ -31,11 +33,10 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.5);
-  
 }
 
 .overlay {
@@ -61,68 +62,70 @@ video {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-.overcon{
-    width: 60rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3rem;
+.overcon {
+  width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .overlay .brand {
-    color: #b442ec;
-    text-shadow: 2px 2px 4px #000;
-    font-family: "Ubuntu", sans-serif;
+  color: #b442ec;
+  text-shadow: 2px 2px 4px #000;
+  font-family: "Ubuntu", sans-serif;
 }
 .overlay p {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* font-family: "Ubuntu", sans-serif; */
   font-size: 1.3rem;
   /* color: #c5f118; */
   font-weight: 400;
 }
-.innerbtns{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 3rem;
+.innerbtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
 }
 
-.obtns{
-   background-color:  #ead177;
-   padding: 9px 35px;
-   border-radius: 20px;
-   border: none;
-     cursor: pointer;
+.obtns {
+  font-size: 1.2rem;
+  background-color: #ead177;
+  padding: 9px 35px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
   transition: transform 0.2s;
-    transform: translateY(-3px);
+  transform: translateY(-6px);
+}
+.btncontainer {
+  background-color: #020202;
+  padding: 1px 1px;
+  /* height: 10px;
+  width: 70px; */
+  border-radius: 20px;
+}
+.obtns:hover {
+  transform: translateY(0px);
+}
 
+.extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 70px;
 }
-.btncontainer{
-   background-color:  #020202;
-   padding: 1px 1px;
-   border-radius: 20px;
-}
-.obtns:hover{
-    transform: translateY(0px);
-
-}
-
-.extra{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
-}
-.extraa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 4rem;
+.extraa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
 }
