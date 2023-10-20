@@ -141,3 +141,25 @@ video {
 }
   
 }
+@media (max-width:450px) {
+  .overlay h1 {
+    font-size: 1.8rem;
+}
+.overlay p {
+    font-size: 0.7rem;
+    text-align: center;
+    width: 365px;
+}
+  
+}
+@media (max-width:400px) {
+  .overlay h1 {
+    font-size: 1.5rem;
+}
+.overlay p {
+    font-size: 0.7rem;
+    text-align: center;
+    width: 285px;
+}
+  
+}
